@@ -1,0 +1,7 @@
+funcionarios: email, senha (criptografada 180min)
+obra: nome, cnpj(criptografado) (cruudcompleto)
+materiais: idobra, descricao, categoria, quantidade, codlote(criptografado)
+movimento: tipo(entrada/saida), quantidade, data
+
+obra hasmany material
+material hasmany movimento
